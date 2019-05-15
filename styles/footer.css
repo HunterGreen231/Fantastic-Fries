@@ -1,0 +1,107 @@
+/* Footer section */
+
+.footer-wrapper {
+    background-color: #11122b;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+.footer-wrapper > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper > .banner-image img {
+    height: 100%;
+    width: 216px;
+    filter: brightness(50%);
+}
+
+.footer-wrapper > .contact-hours-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper > .contact-hours-wrapper > .phone {
+    color: #cbcbcb;
+    margin-right: 50px;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .contact-hours-wrapper > .hours {
+    color: #cea135;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .links-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.footer-wrapper > .icons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-wrapper > .icons-wrapper > .instagram {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.footer-wrapper > .icons-wrapper > .facebook {
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.footer-wrapper > .icons-wrapper > .twitter {
+    margin: 0px 47px;
+    font-size: 30px;
+}
+
+.footer-wrapper > .icons-wrapper > .instagram a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .icons-wrapper > .instagram a:hover {
+    color: #cea135;
+}
+
+.footer-wrapper > .icons-wrapper > .twitter a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .icons-wrapper > .twitter a:hover {
+    color: #cea135
+}
+
+.footer-wrapper > .icons-wrapper > .facebook a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .icons-wrapper > .facebook a:hover {
+    color: #cea135;
+}
+
+.footer-wrapper > .copyright-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper > .copyright-wrapper > .copyright {
+    color: #cbcbcb;
+    filter: brightness(50%);
+}
